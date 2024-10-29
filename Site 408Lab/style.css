@@ -1,0 +1,134 @@
+/* ESTILO GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: #452982;
+    height: 100vh;
+}
+
+.inicio {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #4df9f9;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+/* ESTILO DO CABEÇALHO */
+.logo img {
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
+
+header {
+    padding: 40px 4%;
+}
+
+header>.inicio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover {
+    color: #fff;
+    transform: scale(1.3);
+    text-shadow: 0px 0px 8px #ffffffd5;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+
+.btn-contato button:hover {
+    box-shadow: 0px 0px 8px #4df9f9ab;
+    transform: scale(1.3);
+}
+
+
+/* ESTILO DO TOPO DO SITE */
+
+section.topo-do-site {
+    padding-inline: 40px 4%;
+}
+
+section.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1 {
+    color: #fff;
+    font-size: 42px;
+    line-height: 45px;
+    margin: 60px 0;
+}
+
+.topo-do-site .txt-topo-site h1 span {
+    color: #4df9f9ab;
+    font-size: 50px;
+}
+
+.topo-do-site .txt-topo-site p {
+    color: #fff;
+    margin: 40px 0;
+    font-size: 20px;
+}
+
+.topo-do-site .img-topo-site img {
+    position: relative;
+    animation: flutuar 1.5s ease-in-out infinite alternate;
+    background-color: white;
+    border-radius: 30px 0px 30px 0px;
+    padding: 30px 0px;
+    box-shadow: 0px 0px 15px #ffffffab;
+
+}
+
+@keyframes flutuar {
+    0% {
+        top: 0;
+
+
+    }
+
+    100% {
+        top: 30px;
+
+
+    }
+}
+
