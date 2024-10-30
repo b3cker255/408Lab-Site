@@ -6,7 +6,7 @@ Projeto desenvolvido por **Guilherme** e **Hugo** para a disciplina de **Desenvo
 
 ## 📋 Descrição
 
-Este projeto foi desenvolvido com o objetivo de aplicar conceitos aprendidos durante a disciplina de Desenvolvimento Web. A proposta foi criar uma aplicação web utilizando as principais tecnologias do desenvolvimento front-end e back-end.
+Este projeto foi desenvolvido com o objetivo de aplicar conceitos aprendidos durante a disciplina de Desenvolvimento Web. A proposta foi criar uma aplicação web utilizando apenas HTML e CSS.
 
 ## 🛠️ Tecnologias Utilizadas
 
